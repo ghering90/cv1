@@ -1,73 +1,42 @@
 body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.container {
+  padding-top: 10px;
+  margin: 0 auto auto auto;
   background-color: powderblue;
-  background-size: height 100% width 100%;
-  background-repeat: no-repeat;
-  margin: auto;
+  font-family: 'Sacramento', cursive;
 }
 
-.header {
-  font-family: ink free;
-  color: black;
-  position: absolute;
-  left: 45%;
-  bottom: 50%;
+h2 {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.mont {
-  height: 500px;
-  width: auto;
-  position: absolute;
-  bottom: 0px;
-  left: 20%;
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cloudOne {
   position: absolute;
-  bottom: 40%;
-  right: 55%;
-  display: inline-block;
+
 }
 
 .cloudTwo {
   position: absolute;
-  bottom: 175px;
-  right: 400px;
-  display: inline-block;
+  left: 500px;
+  top: 200px;
 }
+
 .sun {
   position: absolute;
-  right: 10%;
+  top: 0px;
+  right: 300px;
 }
 
-
-/*.heading {
-  text-align: center;
-  font-family: ink free;
-  color: black;
-  font-size: 100px;
-  position: absolute;
-  display: inline-block;
+.mont {
+  position: relative;
+  bottom: 0;
 }
-
-.sub {
-  text-align: center;
-  color: black;
-  font-size: 20px;
-  position: absolute;
-  display: inline-block;
-}*/
-/*.one {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  display: inline-block;
-  left: 200px;
-}*/
-/*.two {
-  background-color: blue;
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  right: 100px;
-}*/
